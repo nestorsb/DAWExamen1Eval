@@ -34,3 +34,12 @@
 *git add. y  *git commit -m "mensaje"
 
 - Volvemos a rama main con *checkout main y hacemos *merge v0.2. Los mensajes "hola" y "adios" estan ambos en sus respectivos ficheros. 
+
+4 -----------------------------------
+Los comandos para listar ramas con merge y sin merge son:
+    - git branch --merged 
+    - git branch --no-merged
+
+- Creamos tag con git tag v0.2
+- Borramos rama con git branch -d v0.2
+Por ultimo hacemos un commit y un push. (y push --tags).
