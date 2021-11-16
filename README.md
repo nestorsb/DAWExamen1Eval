@@ -24,3 +24,13 @@
 - Para crear la rama *git branch v0.2 y para trabajar en ella *git checkout v0.2
 
 - Para realizar un merge (fusionar) hacemos *git checkout main y *git merge v0.2. Con esto habriamos añadido los cambios hechos en la rama v0.2 en main.
+- Para realizar un merge (fusionar) despues de hacer cambios en la segunda rama, primero add y commit, despues checkout main y por ultimo hacemos git merge v0.2. 
+
+3 --------------------------
+- Modificamos 1.txt y hacemos commit desde main:
+*git add. y  *git commit -m "mensaje"
+
+- *git checkout a v0.2 y modificamos 2.txt:
+*git add. y  *git commit -m "mensaje"
+
+- Volvemos a rama main con *checkout main y hacemos *merge v0.2. Los mensajes "hola" y "adios" estan ambos en sus respectivos ficheros. 
